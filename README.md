@@ -2,7 +2,6 @@
 This repository contains the dataset used for training and testing the Heart Disease Prediction Machine Learning model. It includes organized data for preprocessing, model training, and evaluation. These datasets support the main project repository where the ML model and web application are implemented.
 En este proyecto se implementó un flujo completo de trabajo en Machine Learning para abordar un problema de **clasificación binaria** utilizando un dataset relacionado con **enfermedades cardíacas**. El objetivo principal fue construir y evaluar modelos de Machine Learning capaces de predecir la presencia de enfermedad cardíaca en base a un conjunto de características clínicas.
 
-<img src="assets/plots.png" alt="Gráficos de dispersión" width="100%">
 
 ## Objetivos del Proyecto
 
@@ -29,7 +28,7 @@ En este proyecto se implementó un flujo completo de trabajo en Machine Learning
 | `chol`         | Colesterol sérico (mg/dl)                                                                              |
 | ...            | Ver el [diccionario de datos](https://archive.ics.uci.edu/dataset/45/heart+disease) para más detalles. |
 
-<img src="assets/target-features.png" alt="Features vs target" width="100%">
+
 
 1. **Análisis Exploratorio de Datos (EDA)**:
 
@@ -129,6 +128,3 @@ heart-disease-prediction/
 
 Aunque los tres modelos analizados (Random Forest, Logistic Regression y KNN) mostraron un rendimiento similar, **Random Forest** fue seleccionado como el modelo final por su equilibrio en métricas y capacidad para manejar relaciones no lineales. Este análisis proporciona una base sólida para futuras aplicaciones o mejoras en proyectos relacionados con predicción en el ámbito médico.
 
-<img src="assets/comparacion-modelos.png" alt="Comparación modelos" width="100%">
-
-<img src="assets/corr-matrix.png" alt="Matrix de correlación" width="100%">
